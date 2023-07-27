@@ -81,7 +81,6 @@
       }
     }
   }
-
 ## Installing and Setting Serve Static (server_app)
 ## Installing:
 - npm i express --workspace server_app
