@@ -24,7 +24,7 @@
 ### Adding and setting package
 - npm init -y
 
-### Folders
+### Folders (src)
 - Controllers
 - Models
 - Schemas
@@ -32,7 +32,7 @@
 - Middlewares
 - Libs
 
-### Files
+### Files (src)
 - app.js
 - index.js
 - config.js
