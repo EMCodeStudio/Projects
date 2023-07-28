@@ -13,7 +13,7 @@
 - "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "turbo dev",
-    "buid":"turbo build",
+    "build":"turbo build",
     "start": "node applications/server_app/"
   },
 ### Adding Workspaces Option
@@ -44,10 +44,11 @@
 - config.js
 - db.js
 
-
 ## Installing and Setting Tuborepo (root)
+### Install Node Modules
+- npm install
 ### Installing
-- npm install turbo -D
+- npm i turbo -D
 ### Create File turbo
 - turbo.json
 ### Add:
@@ -70,7 +71,7 @@
 }
 
 ## Installing and Setting Client App (applications)
-### Installing
+### Installing (not install node_modules into)
 - npx create-vite
 ### Adding Proxy Into Plugins(client_app/vite.config.json)
 -  server:{
@@ -107,10 +108,9 @@
 })
 ### Create File (.env)
 - PORT:4000
-### Install Node Modules
-- npm install
 ## Run Server and Client(root)
 ### Commands
-- npm run dev,
+- npm run dev, 
 - npm run build,
 - npm run start
+

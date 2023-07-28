@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "turbo dev",
-    "buid": "turbo build",
+    "build": "turbo build",
     "start": "node applications/server_app/src/index.js"
   },
   "workspaces": [
@@ -16,6 +16,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "turbo": "^1.10.9"
+    "turbo": "^1.10.12"
   }
 }
