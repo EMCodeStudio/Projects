@@ -82,9 +82,35 @@
     }
   }
 ## Installing and Setting Serve Static (server_app)
-## Installing:
+### Installing:
 - npm i express --workspace server_app
 - npm i nodemon --workspace server_app
 - npm i serve-static --workspace server_app
-- npm i dotenv --workspace server_app
 - npm i serve-favicon --workspace server_app
+- npm i dotenv --workspace server_app
+ 
+### Setting (app.js)
+- const __filename = fileURLToPath(import.meta.url)
+- const __dirname = dirname(__filename)
+- const app = express()
+- app.use(serveStatic(path.join(__dirname, '../..', 'client_app', 'dist')))
+- app.use(favicon(path.join(__dirname, '../public', 'icons/favicon.ico')))
+- app.get('/api', (req, res) => {
+    res.send('Hello Server App!')
+})
+- app.use(express.json())
+- export default app
+### Setting (index.js)
+- const port = process.env.PORT || 3000
+- app.listen(port, () => {
+    console.log('SERVER ON PORT: ', port)
+})
+### Create File (.env)
+- PORT:4000
+### Install Node Modules
+- npm install
+## Run Server and Client(root)
+### Commands
+- npm run dev,
+- npm run build,
+- npm run start
