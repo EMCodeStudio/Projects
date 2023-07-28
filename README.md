@@ -1,7 +1,6 @@
 # Project DressStore
 # Author: Estiven MC (estivenmorelos@hotmail.com)
 
-
 # Installing and Setting Monorepo Projects
 
 ## Adding and Setting Package (root)
@@ -82,6 +81,8 @@
       }
     }
   }
+
+
 ## Installing and Setting Serve Static (server_app)
 ### Installing:
 - npm i express --workspace server_app
@@ -89,7 +90,6 @@
 - npm i serve-static --workspace server_app
 - npm i serve-favicon --workspace server_app
 - npm i dotenv --workspace server_app
- 
 ### Setting (app.js)
 - const __filename = fileURLToPath(import.meta.url)
 - const __dirname = dirname(__filename)
@@ -108,6 +108,8 @@
 })
 ### Create File (.env)
 - PORT:4000
+
+
 ## Run Server and Client(root)
 ### Commands
 - npm run dev, 
