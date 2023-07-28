@@ -43,7 +43,7 @@
 - config.js
 - db.js
 
-## Installing and Setting Tuborepo (root)
+## Installing and Setting Turborepo (root)
 ### Install Node Modules
 - npm install
 ### Installing
