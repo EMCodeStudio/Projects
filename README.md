@@ -118,7 +118,7 @@
 
 # Back-end Development (server_app)
 
-## Installing Necessary Tools:
+## Installing Necessary Tools (root):
 ### For Console
 - npm i morgan --workspace server_app
 ### For Models
@@ -129,9 +129,10 @@
 - npm i zod --workspace server_app
 ### For Authentication
 - npm i jsonwebtoken --workspace server_app
-### For Security
+### For Security + Salting
 - npm i bcrypt --workspace server_app
-### For Local Data
+### For Local Data Token
 - npm i cookie-parser@latest --workspace server_app
 - npm i --save-dev @types/cookie-parser --workspace server_app
 
+##
