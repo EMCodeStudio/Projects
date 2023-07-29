@@ -116,3 +116,22 @@
 - npm run build,
 - npm run start
 
+# Back-end Development (server_app)
+
+## Installing Necessary Tools:
+### For Console
+- npm i morgan --workspace server_app
+## For Models
+- npm i mongoose --workspace server_app
+## For URL Servers Compatibility (Not Necessary Here)
+ - npm i cors --workspace server_app
+## For Validation
+- npm i zod --workspace server_app
+## For Authentication
+- npm i jsonwebtoken --workspace server_app
+## For Security
+- npm i bcrypt --workspace server_app
+## For Local Data
+- npm i cookie-parser@latest --workspace server_app
+- npm i --save-dev @types/cookie-parser --workspace server_app
+
