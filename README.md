@@ -1,4 +1,4 @@
-# Project DressStore
+# Project DRESS_STORE
 # Author: Estiven MC (estivenmorelos@hotmail.com)
 
 # Installing and Setting Monorepo Projects
