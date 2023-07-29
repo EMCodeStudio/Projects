@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "turbo dev",
     "build":"turbo build",
-    "start": "node applications/server_app/"
+    "start": "node applications/server_app/src/index.js"
   },
 ### Adding Workspaces Option
 -  "workspaces":[
