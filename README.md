@@ -121,17 +121,17 @@
 ## Installing Necessary Tools:
 ### For Console
 - npm i morgan --workspace server_app
-## For Models
+### For Models
 - npm i mongoose --workspace server_app
-## For URL Servers Compatibility (Not Necessary Here)
+### For URL Servers Compatibility (Not Necessary Here)
  - npm i cors --workspace server_app
-## For Validation
+### For Validation
 - npm i zod --workspace server_app
-## For Authentication
+### For Authentication
 - npm i jsonwebtoken --workspace server_app
-## For Security
+### For Security
 - npm i bcrypt --workspace server_app
-## For Local Data
+### For Local Data
 - npm i cookie-parser@latest --workspace server_app
 - npm i --save-dev @types/cookie-parser --workspace server_app
 
