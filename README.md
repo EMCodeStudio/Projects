@@ -1,7 +1,7 @@
 # Project DRESS_STORE
 # Author: Estiven MC (estivenmorelos@hotmail.com)
 
-# Installing and Setting Monorepo Projects
+# Installing and Setting Monorepo Projects Web Applications
 
 ## Adding and Setting Package (root)
 ### Installing
@@ -115,6 +115,23 @@
 - npm run dev, 
 - npm run build,
 - npm run start
+
+## Error Num-1:
+failed to contact turbod. Continuing in standalone mode: connection to t
+        To quickly resolve the issue, try running:
+        - $ turbo daemon clean
+
+        To debug further - please ensure the following:
+        - the process identified by the pid in the file at C:\Users\HP_230LA\AppDabod.pid is not running, and remove C:\Users\HP_230LA\AppData\Local\Temp\turbod\c6e
+        - check the logs at C:\Users\HP_230LA\AppData\Roaming\turborepo\data\logs\
+        - the unix domain socket at C:\Users\HP_230LA\AppData\Local\Temp\turbod\c6ed
+
+        You can also run without the daemon process by passing --no-daemon
+
+### Solutiion package (root):
+- "scripts": {
+    "dev": "turbo dev --no-daemon",
+  },
 
 # Back-End Development (server_app)
 

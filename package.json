@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "turbo dev",
+    "dev": "turbo dev --no-daemon",
     "build": "turbo build",
-    "start": "node applications/server_app/src/index.js"
+    "start": "node applications/server_app/src/index.js "
   },
   "workspaces": [
     "applications/*"
