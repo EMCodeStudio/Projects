@@ -21,7 +21,7 @@
   ],
 
 
-## Installations and Setting Server App(applications/server_app)
+## Installations and Setting Server App (applications/server_app)
 ### Adding and Setting Package
 - npm init -y
 - "type":"module",
@@ -72,7 +72,7 @@
 ## Installing and Setting Client App (applications)
 ### Installing (not install node_modules into)
 - npx create-vite
-### Adding Proxy Into Plugins(client_app/vite.config.json)
+### Adding Proxy Into Plugins (client_app/vite.config.json)
 -  server:{
     proxy:{
       '/api':{
@@ -84,9 +84,9 @@
 
 
 ## Installing and Setting Serve Static (server_app)
-### Installing:
+### Installing (root):
 - npm i express --workspace server_app
-- npm i nodemon --workspace server_app
+- npm i nodemon -D --workspace server_app
 - npm i serve-static --workspace server_app
 - npm i serve-favicon --workspace server_app
 - npm i dotenv --workspace server_app
@@ -116,7 +116,7 @@
 - npm run build,
 - npm run start
 
-# Back-end Development (server_app)
+# Back-End Development (server_app)
 
 ## Installing Necessary Tools (root):
 ### For Console
@@ -135,4 +135,7 @@
 - npm i cookie-parser@latest --workspace server_app
 - npm i --save-dev @types/cookie-parser --workspace server_app
 
-##
+
+## Create Conexion to Database (server_app/src)
+### Connection (db.js) 
+### Import Connection and execute the server (index.js) 
