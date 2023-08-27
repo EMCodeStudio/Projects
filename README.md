@@ -149,11 +149,13 @@ failed to contact turbod. Continuing in standalone mode: connection to t
 - npm i jsonwebtoken --workspace server_app
 ### For Security + Salting
 - npm i bcrypt --workspace server_app
-### For Local Data Token
+### For Persist Local Data Token
 - npm i cookie-parser@latest --workspace server_app
 - npm i --save-dev @types/cookie-parser --workspace server_app
 
 
-## Create Conexion to Database (server_app/src)
+## Create Connection to Database (server_app/src)
 ### Connection (db.js) 
-### Import Connection and execute the server (index.js) 
+### Import Connection and run the server (index.js) 
+
+
