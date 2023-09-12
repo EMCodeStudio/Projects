@@ -1,5 +1,5 @@
 # Project DRESS_STORE
-# Author: Estiven MC (estivenmorelos@hotmail.com)
+# Author: Estiven Morelos Cabarcas (estivenmorelos@hotmail.com)
 
 # Website for online sale of clothing
 
