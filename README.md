@@ -1,6 +1,27 @@
 # Project DRESS_STORE
 # Author: Estiven MC (estivenmorelos@hotmail.com)
 
+# Website for online sale of clothing
+
+# What includes?
+
+1. Registration and Login
+2. Edit profile
+3. Product List
+4. Category Selection
+5. Search by Names
+6. Filtering by Subcategories and Prices
+7. Add products to cart and Favorites
+8. Place Orders and Pay online
+9. View Purchases and their Tracking Statuses
+10. Shipping tracking on Map
+11. Advisory Chat
+
+
+# Main Technologies 
+
+## TurboRepo, Javascript, Express, NodeJS, JWT, MongoDB, Vite + React, Shacdcn.
+
 # Installing and Setting Monorepo Projects Web Applications
 
 ## Adding and Setting Package (root)
@@ -128,7 +149,7 @@ failed to contact turbod. Continuing in standalone mode: connection to t
 
         You can also run without the daemon process by passing --no-daemon
 
-### Solutiion package (root):
+### Solution package (root):
 - "scripts": {
     "dev": "turbo dev --no-daemon",
   },
@@ -149,7 +170,7 @@ failed to contact turbod. Continuing in standalone mode: connection to t
 - npm i jsonwebtoken --workspace server_app
 ### For Security + Salting
 - npm i bcrypt --workspace server_app
-### For Persist Local Data Token
+### For Persist Local Token Data
 - npm i cookie-parser@latest --workspace server_app
 - npm i --save-dev @types/cookie-parser --workspace server_app
 
